@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import './App.css';
 import data from './data'
 import Form from './components/Form'
@@ -8,8 +8,8 @@ import FormList from './components/FormList'
 function App() {
   const [newEmp, setNewEmp] = useState(data)
 
-  const addNewEmployee = note => {
-    setNewEmp([...newEmp, staff])
+  const addNewEmployee = newTeam => {
+    setNewEmp([...newEmp, newTeam])
   }
 
   return (

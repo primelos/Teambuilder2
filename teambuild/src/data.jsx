@@ -1,28 +1,20 @@
-export default[
-    {
-        id: 1,
+export default [
+  {
+    id: 1,
     name: "Carlos",
-    position:
-      "FrontEnd Engineer",
+    position: "FrontEnd Engineer",
     specialty: "Learning"
-
-  
-    },
-    {
-        id: 2,
+  },
+  {
+    id: 2,
     name: "Britney",
-    body:
-      "HTML & CSS",
+    position: "HTML & CSS",
     specialty: "HTML"
-  
-    },
-    {
-        id: 3,
-    Name: "Christina",
-    body:
-      "React",
-      specialty: "Props"
-  
-    }
-]
-
+  },
+  {
+    id: 3,
+    name: "Christina",
+    position: "React",
+    specialty: "Props1"
+  }
+];
