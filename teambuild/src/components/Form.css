@@ -1,0 +1,17 @@
+.formParent{
+    border: solid 1px violet;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.form{
+    border: solid 1px red;
+    font-family: 'Long Cang', cursive;
+    font-size: 2em;
+    background-color: brown;
+    border-bottom-left-radius: 31%;
+    margin: 10px;
+    text-align: center;
+}
+

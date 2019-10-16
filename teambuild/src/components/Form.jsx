@@ -1,4 +1,5 @@
 import React from 'react';
+import './Form.css'
 
 const Form = (props) => {
 
@@ -7,9 +8,9 @@ const Form = (props) => {
             {props.employee.map((i, index) => {
                 return (
                     <div className='form' key={index}>
-                        <h2>{i.name}</h2>
-                        <p>{i.position}</p>
-                        <p>{i.specialty}</p>
+                        <h3>Name: {i.name}</h3>
+                        <p>Position: {i.position}</p>
+                        <p>Specialty: {i.specialty}</p>
                     </div>
                 )
             })}
